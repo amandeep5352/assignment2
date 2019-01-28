@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "CHROME DRIVER PATH");
+		System.setProperty("webdriver.chrome.driver", "Users/user/Desktop/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		String base_url = "http://localhost/part1/jenelleteaches-donutshop-qatesting-c3074dccd0fe/admin/";
